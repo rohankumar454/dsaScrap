@@ -93,6 +93,20 @@ int main() {
 
 
 
+    //copy of a pointer
+    int newNum = 850;
+    int *p = &newNum;
+    int *copy = p;
+
+    cout << p << endl; //0x61ff04
+    cout << copy << endl; //0x61ff04
+
+    //we can use copy and p interchangebly
+    //both are same..!!!
+
+
+
+
 
 
     
