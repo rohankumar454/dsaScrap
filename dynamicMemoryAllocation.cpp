@@ -33,3 +33,23 @@
 //jaise-
 int arr[20] //yaha pr total space 4*20 = 80 bytes
 int *ptr = new int[k]//yaha pr - 8byte pointer ki + k*4 byte array ki
+
+
+
+
+
+
+
+
+ //creating 2d aray dynamically::
+    //creating n x m array
+    int n;
+    int m;
+    cin >> n;
+    cin >> m;
+    int **arrPtr = new int *[n];
+    //first we will take n pointers which will create
+    //n 1d array then we will allot all likewise::
+    for(int i=0; i<n; i++){
+        arrPtr[i] = new int[m];
+    }
