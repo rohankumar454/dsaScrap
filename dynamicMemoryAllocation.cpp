@@ -24,3 +24,12 @@
     }
 
     cout << sum << endl;
+
+
+
+
+//ek orr important bar::
+//static memory alloccation me space km leta hai
+//jaise-
+int arr[20] //yaha pr total space 4*20 = 80 bytes
+int *ptr = new int[k]//yaha pr - 8byte pointer ki + k*4 byte array ki
